@@ -419,7 +419,8 @@
       <BaseRepresentation lengthExponent="-3" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
         <Unit name="1/l" factor="1" />
-        <Unit name="1/ml" factor="1000" />
+        <Unit name="1/ml" factor="1E3" />
+        <Unit name="1/µl" factor="1E6" />
       </Units>
     </Dimension>
     <Dimension name="Length" baseUnit="dm" defaultUnit="cm">
@@ -632,6 +633,7 @@
       <Units>
         <Unit name="l" factor="1" />
         <Unit name="ml" factor="1E-3" />
+        <Unit name="µl" factor="1E-6" />
       </Units>
     </Dimension>
     <Dimension name="Volume per body weight" baseUnit="l/kg" defaultUnit="ml/kg">
