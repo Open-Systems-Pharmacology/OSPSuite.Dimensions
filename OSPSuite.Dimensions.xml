@@ -729,13 +729,14 @@
         <Unit name="(kg*dm²)/min²" factor="1" />
       </Units>
     </Dimension>
-    <Dimension name="Katal" baseUnit="kat" defaultUnit="mol/min">
+    <Dimension name="Katal" baseUnit="µmol/min" defaultUnit="kat">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="kat" factor="1" />
-        <Unit name="mol/min" factor="1" />
-        <Unit name="mol/s" factor="60" />
-        <Unit name="mol/h" factor="1/60" />
+        <Unit name="kat" factor="1E6*60" />
+        <Unit name="mol/min" factor="1E6" />
+        <Unit name="mol/s" factor="1E6*60" />
+        <Unit name="mol/h" factor="1E6/60" />
+        <Unit name="µmol/min" factor="1" />
       </Units>
     </Dimension>
     <Dimension name="Kelvin" baseUnit="K" defaultUnit="K">
