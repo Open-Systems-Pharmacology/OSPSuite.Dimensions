@@ -739,10 +739,10 @@
         <Unit name="µmol/min" factor="1" />
       </Units>
     </Dimension>
-    <Dimension name="Temperature" baseUnit="K" defaultUnit="C">
+    <Dimension name="Temperature" baseUnit="K" defaultUnit="°C">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="1" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="C" factor="1" offset="273.15" />
+        <Unit name="°C" factor="1" offset="273.15" />
         <Unit name="F" factor="5/9" offset="255.37" />
         <Unit name="K" factor="1" />
       </Units>
