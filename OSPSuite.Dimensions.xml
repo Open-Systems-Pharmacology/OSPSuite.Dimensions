@@ -739,6 +739,14 @@
         <Unit name="µmol/min" factor="1" />
       </Units>
     </Dimension>
+    <Dimension name="Temperature" baseUnit="K" defaultUnit="K">
+      <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="1" amountExponent="0" luminousIntensityExponent="0" />
+      <Units>
+        <Unit name="K" factor="1" />
+        <Unit name="F" factor="5/9" offset="255.37" />
+        <Unit name="C" factor="1" offset="273.15" />
+      </Units>
+    </Dimension>
     <Dimension name="Kelvin" baseUnit="K">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="1" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
