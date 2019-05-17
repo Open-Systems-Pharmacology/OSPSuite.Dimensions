@@ -478,6 +478,15 @@
         <Unit name="pg/s" factor="1E-15*60" />
       </Units>
     </Dimension>
+    <Dimension name="Mass per area per time" baseUnit="kg/dm²/min" defaultUnit="µg/cm²/h">
+      <BaseRepresentation lengthExponent="-2" massExponent="1" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
+      <Units>
+        <Unit name="µg/cm²/h" factor="1E-7/60" />
+        <Unit name="mg/cm²/h" factor="1E-4/60" />
+        <Unit name="mg/m²/h" factor="1E-8/60" />
+        <Unit name="kg/dm²/min" factor="1" visible="0" />
+      </Units>
+    </Dimension>
     <Dimension name="Mass per tissue" baseUnit="kg/kg" defaultUnit="mg/g">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
