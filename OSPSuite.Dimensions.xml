@@ -131,7 +131,7 @@
         <Unit name="nmol*h²/ml" factor="36E2" />
         <Unit name="pmol*h²/ml" factor="36E-1" />
         <Unit name="mmol*h²/l" factor="36E5" />
-        <Unit name="µmol*h²/l" factor="36E3" />
+        <Unit name="µmol*h²/l" factor="36E2" />
         <Unit name="nmol*h²/l" factor="36E-1" />
         <Unit name="pmol*h²/l" factor="36E-4" />
         <Unit name="mmol*min²/ml" factor="1E6" />
