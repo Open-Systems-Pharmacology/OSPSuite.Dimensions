@@ -7,8 +7,18 @@
       <Units>
         <Unit name="pmol/mg mic. protein" factor="1" />
         <Unit name="nmol/mg mic. protein" factor="1e3" />
-        <Unit name="µmol/mg mic. protein" factor="1e6" />
-        <Unit name="µmol/kg mic. protein" factor="1" visible="0" />
+        <Unit name="µmol/mg mic. protein" factor="1e6" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/mg mic. protein"/>
+            <UnitSynonym name="mcmol/mg mic. protein"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/kg mic. protein" factor="1" visible="0" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/kg mic. protein"/>
+            <UnitSynonym name="mcmol/kg mic. protein"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Abundance per tissue" baseUnit="µmol/kg tissue" defaultUnit="pmol/g tissue">
@@ -16,8 +26,18 @@
       <Units>
         <Unit name="pmol/g tissue" factor="1e-3" />
         <Unit name="nmol/g tissue" factor="1" />
-        <Unit name="µmol/g tissue" factor="1000" />
-        <Unit name="µmol/kg tissue" factor="1" visible="0" />
+        <Unit name="µmol/g tissue" factor="1000" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/g tissue"/>
+            <UnitSynonym name="mcmol/g tissue"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/kg tissue" factor="1" visible="0" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/kg tissue"/>
+            <UnitSynonym name="mcmol/kg tissue"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Age in years" baseUnit="year(s)">
@@ -43,7 +63,12 @@
       <Units>
         <Unit name="mol" factor="1E6" />
         <Unit name="mmol" factor="1000" />
-        <Unit name="µmol" factor="1" />
+        <Unit name="µmol" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol"/>
+            <UnitSynonym name="mcmol"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol" factor="0.001" />
         <Unit name="pmol" factor="1E-06" />
       </Units>
@@ -55,10 +80,30 @@
         <Unit name="mmol/min" factor="1E3" />
         <Unit name="mmol/h" factor="1E3/60" />
         <Unit name="mmol/day(s)" factor="1E3/(24*60)" />
-        <Unit name="µmol/s" factor="60" />
-        <Unit name="µmol/min" factor="1" />
-        <Unit name="µmol/h" factor="1/60" />
-        <Unit name="µmol/day(s)" factor="1/(24*60)" />
+        <Unit name="µmol/s" factor="60" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/s"/>
+            <UnitSynonym name="mcmol/s"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/min" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min"/>
+            <UnitSynonym name="mcmol/min"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/h" factor="1/60" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/h"/>
+            <UnitSynonym name="mcmol/h"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/day(s)" factor="1/(24*60)" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/day(s)"/>
+            <UnitSynonym name="mcmol/day(s)"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/s" factor="1E-3*60" />
         <Unit name="nmol/min" factor="1E-3" />
         <Unit name="nmol/h" factor="1E-3/60" />
@@ -81,19 +126,39 @@
       <BaseRepresentation lengthExponent="-3" massExponent="1" timeExponent="1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
         <Unit name="mg*h/ml" factor="60*1E-3" />
-        <Unit name="µg*h/ml" factor="60*1E-6" />
+        <Unit name="µg*h/ml" factor="60*1E-6" >
+          <UnitSynonyms>
+            <UnitSynonym name="change"/>
+            <UnitSynonym name="change"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng*h/ml" factor="60*1E-9" />
         <Unit name="pg*h/ml" factor="60*1E-12" />
         <Unit name="mg*h/l" factor="60*1E-6" />
-        <Unit name="µg*h/l" factor="60*1E-9" />
+        <Unit name="µg*h/l" factor="60*1E-9" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug*h/l"/>
+            <UnitSynonym name="mcg*h/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng*h/l" factor="60*1E-12" />
         <Unit name="pg*h/l" factor="60*1E-15" />
         <Unit name="mg*min/ml" factor="1E-3" />
-        <Unit name="µg*min/ml" factor="1E-6" />
+        <Unit name="µg*min/ml" factor="1E-6" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug*min/ml"/>
+            <UnitSynonym name="mcg*min/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng*min/ml" factor="1E-9" />
         <Unit name="pg*min/ml" factor="1E-12" />
         <Unit name="mg*min/l" factor="1E-6" />
-        <Unit name="µg*min/l" factor="1E-9" />
+        <Unit name="µg*min/l" factor="1E-9" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug*min/l"/>
+            <UnitSynonym name="mcg*min/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng*min/l" factor="1E-12" />
         <Unit name="pg*min/l" factor="1E-15" />
         <Unit name="kg*min/l" factor="1" />
@@ -106,18 +171,38 @@
       <BaseRepresentation lengthExponent="-3" massExponent="0" timeExponent="1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
         <Unit name="mmol*h/ml" factor="6E7" />
-        <Unit name="µmol*h/ml" factor="6E4" />
+        <Unit name="µmol*h/ml" factor="6E4" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*h/ml"/>
+            <UnitSynonym name="mcmol*h/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*h/ml" factor="6E1" />
         <Unit name="pmol*h/ml" factor="6E-2" />
         <Unit name="mmol*h/l" factor="6E4" />
-        <Unit name="µmol*h/l" factor="6E1" />
+        <Unit name="µmol*h/l" factor="6E1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*h/l"/>
+            <UnitSynonym name="mcmol*h/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*h/l" factor="6E-2" />
         <Unit name="pmol*h/l" factor="6E-5" />
         <Unit name="mmol*min/ml" factor="1E6" />
-        <Unit name="µmol*min/ml" factor="1E3" />
+        <Unit name="µmol*min/ml" factor="1E3" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*min/ml"/>
+            <UnitSynonym name="mcmol*min/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*min/ml" factor="1" />
         <Unit name="pmol*min/ml" factor="1E-3" />
-        <Unit name="µmol*min/l" factor="1" />
+        <Unit name="µmol*min/l" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*min/l"/>
+            <UnitSynonym name="mcmol*min/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="mmol*min/l" factor="1E3" />
         <Unit name="nmol*min/l" factor="1E-3" />
         <Unit name="pmol*min/l" factor="1E-6" />
@@ -127,18 +212,38 @@
       <BaseRepresentation lengthExponent="-3" massExponent="0" timeExponent="2" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
         <Unit name="mmol*h²/ml" factor="36E8" />
-        <Unit name="µmol*h²/ml" factor="36E5" />
+        <Unit name="µmol*h²/ml" factor="36E5" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*h²/ml"/>
+            <UnitSynonym name="mcmol*h²/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*h²/ml" factor="36E2" />
         <Unit name="pmol*h²/ml" factor="36E-1" />
         <Unit name="mmol*h²/l" factor="36E5" />
-        <Unit name="µmol*h²/l" factor="36E2" />
+        <Unit name="µmol*h²/l" factor="36E2" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*h²/l"/>
+            <UnitSynonym name="mcmol*h²/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*h²/l" factor="36E-1" />
         <Unit name="pmol*h²/l" factor="36E-4" />
         <Unit name="mmol*min²/ml" factor="1E6" />
-        <Unit name="µmol*min²/ml" factor="1E3" />
+        <Unit name="µmol*min²/ml" factor="1E3" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*min²/ml"/>
+            <UnitSynonym name="mcmol*min²/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol*min²/ml" factor="1" />
         <Unit name="pmol*min²/ml" factor="1E-3" />
-        <Unit name="µmol*min²/l" factor="1" />
+        <Unit name="µmol*min²/l" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol*min²/l"/>
+            <UnitSynonym name="mcmol*min²/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="mmol*min²/l" factor="1E3" />
         <Unit name="nmol*min²/l" factor="1E-3" />
         <Unit name="pmol*min²/l" factor="1E-6" />
@@ -156,28 +261,53 @@
       <Units>
         <Unit name="pl/min/mg mic. protein" factor="1e-6" />
         <Unit name="nl/min/mg mic. protein" factor="1e-3" />
-        <Unit name="µl/min/mg mic. protein" factor="1" />
+        <Unit name="µl/min/mg mic. protein" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="ul/min/mg mic. protein"/>
+            <UnitSynonym name="mcl/min/mg mic. protein"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="l/min/kg mic. protein" factor="1" visible="0" />
       </Units>
     </Dimension>
     <Dimension name="CL per recombinant enzyme" baseUnit="l/min/µmol rec. enzyme" defaultUnit="µl/min/pmol rec. enzyme">
       <BaseRepresentation lengthExponent="3" massExponent="0" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="-1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="µl/min/pmol rec. enzyme" factor="1" />
+        <Unit name="µl/min/pmol rec. enzyme" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="ul/min/pmol rec. enzyme"/>
+            <UnitSynonym name="mcl/min/pmol rec. enzyme"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ml/min/pmol rec. enzyme" factor="1E3" />
-        <Unit name="l/min/µmol rec. enzyme" factor="1" visible="0" />
+        <Unit name="l/min/µmol rec. enzyme" factor="1" visible="0" >
+          <UnitSynonyms>
+            <UnitSynonym name="l/min/umol rec. enzyme"/>
+            <UnitSynonym name="l/min/mcmol rec. enzyme"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Concentration (mass)" baseUnit="kg/l" defaultUnit="mg/l">
       <BaseRepresentation lengthExponent="-3" massExponent="1" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
         <Unit name="mg/l" factor="1E-6" />
-        <Unit name="µg/l" factor="1E-9" />
+        <Unit name="µg/l" factor="1E-9" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/l"/>
+            <UnitSynonym name="mcg/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng/l" factor="1E-12" />
         <Unit name="pg/l" factor="1E-15" />
         <Unit name="mg/dl" factor="1E-5" />
         <Unit name="mg/ml" factor="1E-3" />
-        <Unit name="µg/ml" factor="1E-6" />
+        <Unit name="µg/ml" factor="1E-6" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/ml"/>
+            <UnitSynonym name="mcg/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng/ml" factor="1E-9" />
         <Unit name="pg/ml" factor="1E-12" />
         <Unit name="kg/l" factor="1" visible="0" />
@@ -188,19 +318,34 @@
       <Units>
         <Unit name="mol/l" factor="1E6" />
         <Unit name="mmol/l" factor="1E3" />
-        <Unit name="µmol/l" factor="1" />
+        <Unit name="µmol/l" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/l"/>
+            <UnitSynonym name="mcmol/l"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/l" factor="1E-3" />
         <Unit name="pmol/l" factor="1E-6" />
         <Unit name="fmol/l" factor="1E-9" />
         <Unit name="M" factor="1E6" />
         <Unit name="mM" factor="1E3" />
-        <Unit name="µM" factor="1" />
+        <Unit name="µM" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="uM"/>
+            <UnitSynonym name="mcM"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nM" factor="1E-3" />
         <Unit name="pM" factor="1E-6" />
         <Unit name="fM" factor="1E-9" />
         <Unit name="mol/ml" factor="1E9" />
         <Unit name="mmol/ml" factor="1E6" />
-        <Unit name="µmol/ml" factor="1E3" />
+        <Unit name="µmol/ml" factor="1E3" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/ml"/>
+            <UnitSynonym name="mcmol/ml"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/ml" factor="1" />
         <Unit name="pmol/ml" factor="1E-3" />
         <Unit name="fmol/ml" factor="1E-6" />
@@ -211,19 +356,34 @@
       <Units>
         <Unit name="l/mol" factor="1E-6" />
         <Unit name="l/mmol" factor="1E-3" />
-        <Unit name="l/µmol" factor="1" />
+        <Unit name="l/µmol" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="l/umol"/>
+            <UnitSynonym name="l/mcmol"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="l/nmol" factor="1E3" />
         <Unit name="l/pmol" factor="1E6" />
         <Unit name="l/fmol" factor="1E9" />
         <Unit name="1/M" factor="1E-6" />
         <Unit name="1/mM" factor="1E-3" />
-        <Unit name="1/µM" factor="1" />
+        <Unit name="1/µM" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="1/uM"/>
+            <UnitSynonym name="1/mcM"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="1/nM" factor="1E3" />
         <Unit name="1/pM" factor="1E6" />
         <Unit name="1/fM" factor="1E9" />
         <Unit name="ml/mol" factor="1E-9" />
         <Unit name="ml/mmol" factor="1E-6" />
-        <Unit name="ml/µmol" factor="1E-3" />
+        <Unit name="ml/µmol" factor="1E-3" >
+          <UnitSynonyms>
+            <UnitSynonym name="ml/umol"/>
+            <UnitSynonym name="ml/mcmol"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ml/nmol" factor="1" />
         <Unit name="ml/pmol" factor="1E3" />
         <Unit name="ml/fmol" factor="1E6" />
@@ -232,13 +392,28 @@
     <Dimension name="Concentration (molar) per time" baseUnit="µmol/l/min">
       <BaseRepresentation lengthExponent="-3" massExponent="0" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="µmol/l/min" factor="1" />
+        <Unit name="µmol/l/min" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="change"/>
+            <UnitSynonym name="change"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="mol/l/s" factor="6E7" />
         <Unit name="mmol/l/s" factor="6E4" />
-        <Unit name="µmol/l/s" factor="6E1" />
+        <Unit name="µmol/l/s" factor="6E1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/l/s"/>
+            <UnitSynonym name="mcmol/l/s"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/l/s" factor="6E-2" />
         <Unit name="pmol/l/s" factor="6E-5" />
-        <Unit name="µmol/ml/min" factor="1E3" />
+        <Unit name="µmol/ml/min" factor="1E3" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/ml/min"/>
+            <UnitSynonym name="mcmol/ml/min"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/ml/min" factor="1" />
         <Unit name="pmol/ml/min" factor="1E-3" />
       </Units>
@@ -285,7 +460,12 @@
         <Unit name="x10^6/ml" factor="1E3" />
         <Unit name="1/nl" factor="1E3" />
         <Unit name="x10^6/l" factor="1" />
-        <Unit name="1/µl" factor="1" />
+        <Unit name="1/µl" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="1/ul"/>
+            <UnitSynonym name="1/mcl"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="CV Viscosity" baseUnit="kg/(dm*min)" defaultUnit="s*mmHg">
@@ -424,7 +604,12 @@
     <Dimension name="Inversed mol" baseUnit="1/µmol" defaultUnit="1/mol">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="-1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="1/µmol" factor="1" />
+        <Unit name="1/µmol" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="1/umol"/>
+            <UnitSynonym name="1/mcmol"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="1/mol" factor="1E-6" />
       </Units>
     </Dimension>
@@ -441,7 +626,12 @@
       <Units>
         <Unit name="1/l" factor="1" />
         <Unit name="1/ml" factor="1E3" />
-        <Unit name="1/µl" factor="1E6" />
+        <Unit name="1/µl" factor="1E6" >
+          <UnitSynonyms>
+            <UnitSynonym name="1/ul" />
+            <UnitSynonym name="1/mcl"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Length" baseUnit="dm" defaultUnit="cm">
@@ -451,7 +641,12 @@
         <Unit name="dm" factor="1" />
         <Unit name="cm" factor="1E-1" />
         <Unit name="mm" factor="1E-2" />
-        <Unit name="µm" factor="1E-5" />
+        <Unit name="µm" factor="1E-5" >
+          <UnitSynonyms>
+            <UnitSynonym name="um"/>
+            <UnitSynonym name="mcm"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nm" factor="1E-8" />
         <Unit name="pm" factor="1E-11" />
       </Units>
@@ -468,7 +663,12 @@
         <Unit name="kg" factor="1" />
         <Unit name="g" factor="1E-3" />
         <Unit name="mg" factor="1E-6" />
-        <Unit name="µg" factor="1E-9" />
+        <Unit name="µg" factor="1E-9" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug"/>
+            <UnitSynonym name="mcg"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng" factor="1E-12" />
         <Unit name="pg" factor="1E-15" />
       </Units>
@@ -476,7 +676,12 @@
     <Dimension name="Mass per area" baseUnit="kg/dm²" defaultUnit="µg/cm²">
       <BaseRepresentation lengthExponent="-2" massExponent="1" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="µg/cm²" factor="1E-7" />
+        <Unit name="µg/cm²" factor="1E-7" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/cm"/>
+            <UnitSynonym name="mcg/cm"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="mg/cm²" factor="1E-4" />
         <Unit name="mg/m²" factor="1E-8" />
         <Unit name="kg/dm²" factor="1" visible="0" />
@@ -488,13 +693,23 @@
         <Unit name="kg/min" factor="1" />
         <Unit name="g/min" factor="1E-3" />
         <Unit name="mg/min" factor="1E-6" />
-        <Unit name="µg/min" factor="1E-9" />
+        <Unit name="µg/min" factor="1E-9" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/min"/>
+            <UnitSynonym name="mcg/min"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng/min" factor="1E-12" />
         <Unit name="pg/min" factor="1E-15" />
         <Unit name="kg/s" factor="1*60" />
         <Unit name="g/s" factor="1E-3*60" />
         <Unit name="mg/s" factor="1E-6*60" />
-        <Unit name="µg/s" factor="1E-9*60" />
+        <Unit name="µg/s" factor="1E-9*60" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/s"/>
+            <UnitSynonym name="mcg/s"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="ng/s" factor="1E-12*60" />
         <Unit name="pg/s" factor="1E-15*60" />
       </Units>
@@ -502,7 +717,12 @@
     <Dimension name="Mass per area per time" baseUnit="kg/dm²/min" defaultUnit="µg/cm²/h">
       <BaseRepresentation lengthExponent="-2" massExponent="1" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="µg/cm²/h" factor="1E-7/60" />
+        <Unit name="µg/cm²/h" factor="1E-7/60" >
+          <UnitSynonyms>
+            <UnitSynonym name="ug/cm²/h"/>
+            <UnitSynonym name="mcg/cm²/h"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="mg/cm²/h" factor="1E-4/60" />
         <Unit name="mg/m²/h" factor="1E-8/60" />
         <Unit name="kg/dm²/min" factor="1" visible="0" />
@@ -518,7 +738,12 @@
     <Dimension name="Molecular weight" baseUnit="kg/µmol" defaultUnit="g/mol">
       <BaseRepresentation lengthExponent="0" massExponent="1" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="-1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="kg/µmol" factor="1" />
+        <Unit name="kg/µmol" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="kg/umol"/>
+            <UnitSynonym name="kg/mcmol"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="kg/mol" factor="1E-6" />
         <Unit name="kDa" factor="1E-6" />
         <Unit name="g/mol" factor="1E-9" />
@@ -565,7 +790,12 @@
       <BaseRepresentation lengthExponent="2" massExponent="1" timeExponent="-2" electricCurrentExponent="0" temperatureExponent="0" amountExponent="-1" luminousIntensityExponent="0" />
       <Units>
         <Unit name="N*cm/mol" factor="10*60*60*1E-1*1E-6" />
-        <Unit name="(kg*dm/min²)*dm/µmol" factor="1" />
+        <Unit name="(kg*dm/min²)*dm/µmol" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="(kg*dm/min²)*dm/umol"/>
+            <UnitSynonym name="(kg*dm/min²)*dm/mcmol"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Second order rate constant" baseUnit="l/µmol/min">
@@ -573,17 +803,32 @@
       <Units>
         <Unit name="l/mol/h" factor="1/60*1E-6" />
         <Unit name="l/mmol/h" factor="1/60*1E-3" />
-        <Unit name="l/µmol/h" factor="1/60" />
+        <Unit name="l/µmol/h" factor="1/60" >
+          <UnitSynonyms>
+            <UnitSynonym name="l/umol/h"/>
+            <UnitSynonym name="l/mcmol/h"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="l/nmol/h" factor="1/60*1E3" />
         <Unit name="l/pmol/h" factor="1/60*1E6" />
         <Unit name="l/mol/min" factor="1E-6" />
         <Unit name="l/mmol/min" factor="1E-3" />
-        <Unit name="l/µmol/min" factor="1" />
+        <Unit name="l/µmol/min" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="l/umol/min"/>
+            <UnitSynonym name="l/mcmol/min"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="l/nmol/min" factor="1E3" />
         <Unit name="l/pmol/min" factor="1E6" />
         <Unit name="l/mol/s" factor="60*1E-6" />
         <Unit name="l/mmol/s" factor="60*1E-3" />
-        <Unit name="l/µmol/s" factor="60" />
+        <Unit name="l/µmol/s" factor="60" >
+          <UnitSynonyms>
+            <UnitSynonym name="l/umol/s"/>
+            <UnitSynonym name="l/mcmol/s"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="l/nmol/s" factor="60*1E3" />
         <Unit name="l/pmol/s" factor="60*1E6" />
       </Units>
@@ -638,15 +883,35 @@
       <Units>
         <Unit name="pmol/min/mg mic. protein" factor="1" />
         <Unit name="nmol/min/mg mic. protein" factor="1E3" />
-        <Unit name="µmol/min/mg mic. protein" factor="1E6" />
-        <Unit name="µmol/min/kg mic. protein" factor="1" />
+        <Unit name="µmol/min/mg mic. protein" factor="1E6" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/mg mic. protein"/>
+            <UnitSynonym name="mcmol/min/mg mic. protein"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/min/kg mic. protein" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/kg mic. protein"/>
+            <UnitSynonym name="mcmol/min/kg mic. protein"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Vmax per weight organ tissue" baseUnit="µmol/min/kg tissue">
       <BaseRepresentation lengthExponent="0" massExponent="-1" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="µmol/min/kg tissue" factor="1" />
-        <Unit name="µmol/min/g tissue" factor="1E3" />
+        <Unit name="µmol/min/kg tissue" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/kg tissue"/>
+            <UnitSynonym name="mcmol/min/kg tissue"/>
+          </UnitSynonyms>
+        </Unit>
+        <Unit name="µmol/min/g tissue" factor="1E3" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/g tissue"/>
+            <UnitSynonym name="mcmol/min/g tissue"/>
+          </UnitSynonyms>
+        </Unit>
         <Unit name="nmol/min/g tissue" factor="1" />
         <Unit name="pmol/min/g tissue" factor="1E-3" />
       </Units>
@@ -656,7 +921,12 @@
       <Units>
         <Unit name="nmol/min/pmol rec. enzyme" factor="1E3" />
         <Unit name="pmol/min/pmol rec. enzyme" factor="1" />
-        <Unit name="µmol/min/µmol rec. enzyme" factor="1" />
+        <Unit name="µmol/min/µmol rec. enzyme" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/umol rec. enzyme"/>
+            <UnitSynonym name="mcmol/min/mcmol rec. enzyme"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Vmax per transporter" baseUnit="µmol/min/µmol transporter" defaultUnit="nmol/min/pmol transporter">
@@ -664,7 +934,12 @@
       <Units>
         <Unit name="nmol/min/pmol transporter" factor="1E3" />
         <Unit name="pmol/min/pmol transporter" factor="1" />
-        <Unit name="µmol/min/µmol transporter" factor="1" />
+        <Unit name="µmol/min/µmol transporter" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min/umol transporter"/>
+            <UnitSynonym name="mcmol/min/mcmol transporter"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Volume" baseUnit="l">
@@ -672,7 +947,12 @@
       <Units>
         <Unit name="l" factor="1" />
         <Unit name="ml" factor="1E-3" />
-        <Unit name="µl" factor="1E-6" />
+        <Unit name="µl" factor="1E-6" >
+          <UnitSynonyms>
+            <UnitSynonym name="ul"/>
+            <UnitSynonym name="mcl"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Volume per body weight" baseUnit="l/kg" defaultUnit="ml/kg">
@@ -775,7 +1055,12 @@
         <Unit name="mol/min" factor="1E6" />
         <Unit name="mol/s" factor="1E6*60" />
         <Unit name="mol/h" factor="1E6/60" />
-        <Unit name="µmol/min" factor="1" />
+        <Unit name="µmol/min" factor="1" >
+          <UnitSynonyms>
+            <UnitSynonym name="umol/min"/>
+            <UnitSynonym name="mcmol/min"/>
+          </UnitSynonyms>
+        </Unit>
       </Units>
     </Dimension>
     <Dimension name="Temperature" baseUnit="K" defaultUnit="°C">
