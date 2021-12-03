@@ -391,11 +391,11 @@
         <Unit name="ml/h/kg" factor="1/60000" />
       </Units>
     </Dimension>
-     <Dimension name="Flow per body surface area" baseUnit="l/min/dm²" defaultUnit="l/min/1.73m²">
+     <Dimension name="Flow per body surface area" baseUnit="l/min/dm²" defaultUnit="ml/min/1.73m²">
       <BaseRepresentation lengthExponent="1" massExponent="0" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
         <Unit name="l/min/dm²" factor="1" visible="0"/>
-        <Unit name="l/min/1.73m²" factor="1E-2/1.73" />
+        <Unit name="ml/min/1.73m²" factor="1E-3*1E-2/1.73" />
       </Units>
     </Dimension>
     <Dimension name="Flow²" baseUnit="(l/min)²">
