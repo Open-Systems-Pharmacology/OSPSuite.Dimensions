@@ -338,8 +338,8 @@
       <Units>
         <Unit name="mg/m²" factor="1E-8" />
         <Unit name="kg/dm²" factor="1" visible="0" />
-		<Unit name="µg/cm²" factor="1E-7" />
-		<Unit name="mg/cm²" factor="1E-4" />
+        <Unit name="µg/cm²" factor="1E-7" />
+        <Unit name="mg/cm²" factor="1E-4" />
       </Units>
     </Dimension>
     <Dimension name="Elastance" baseUnit="(kg/(dm*min²))/l" defaultUnit="mmHg/ml">
