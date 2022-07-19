@@ -691,7 +691,8 @@
       <BaseRepresentation lengthExponent="3" massExponent="-1" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
         <Unit name="l/kg" factor="1" />
-        <Unit name="ml/kg" factor="0.001" />
+        <Unit name="ml/kg" factor="1E-3" />
+        <Unit name="µl/kg" factor="1E-6" />
       </Units>
     </Dimension>
     <Dimension name="Ampere" baseUnit="A">
