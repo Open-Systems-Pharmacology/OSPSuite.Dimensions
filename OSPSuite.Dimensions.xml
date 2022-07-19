@@ -328,6 +328,8 @@
     <Dimension name="Dose per body weight" baseUnit="kg/kg" defaultUnit="mg/kg">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
+        <Unit name="ng/kg" factor="1E-12" />
+        <Unit name="µg/kg" factor="1E-9" />
         <Unit name="mg/kg" factor="1E-6" />
         <Unit name="g/kg" factor="1E-3" />
         <Unit name="kg/kg" factor="1" visible="0" />
