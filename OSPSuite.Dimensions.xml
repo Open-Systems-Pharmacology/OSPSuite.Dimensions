@@ -692,7 +692,7 @@
       <Units>
         <Unit name="l/kg" factor="1" />
         <Unit name="ml/kg" factor="1E-3" />
-        <Unit name="µl/kg" factor="1E-6" />
+        <Unit name="µl/kg" factor="1E-6" visible="0" />
       </Units>
     </Dimension>
     <Dimension name="Ampere" baseUnit="A">
