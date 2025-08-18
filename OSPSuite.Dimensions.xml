@@ -942,7 +942,7 @@
         <Unit name="nmol/µm²" factor="1E-3*1E10" />
         <Unit name="nmol/mm²" factor="1E-3*1E4" />
         <Unit name="nmol/cm²" factor="1E-3*1E2" />
-        <Unit name="nmol/dm²" factor="1E-3*" visible="0" />
+        <Unit name="nmol/dm²" factor="1E-3" visible="0" />
       </Units>
     </Dimension>
     <Dimension name="Inversed area" baseUnit="1/dm²" defaultUnit="1/cm²">
