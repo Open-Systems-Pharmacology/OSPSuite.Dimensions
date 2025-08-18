@@ -920,5 +920,14 @@
         <Unit name="(kg*m²)/(A*s²)" factor="1E2*60*60" />
       </Units>
     </Dimension>
+    <Dimension name="Amount per area per time" baseUnit="µmol/dm²/min" defaultUnit="µmol/cm²/h">
+      <BaseRepresentation lengthExponent="-2" massExponent="0" timeExponent="-1" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
+      <Units>
+        <Unit name="µmol/cm²/h" factor="1E-7/60" />
+        <Unit name="mmol/cm²/h" factor="1E-4/60" />
+        <Unit name="mmolg/m²/h" factor="1E-8/60" />
+        <Unit name="µmol/dm²/min" factor="1" visible="0" />
+      </Units>
+    </Dimension> 
   </Dimensions>
 </DimensionFactory>
