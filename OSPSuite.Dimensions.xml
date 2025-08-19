@@ -363,8 +363,8 @@
         <Unit name="kcal" factor="4184*10*10*60*60" />
         <Unit name="cal" factor="4184*10*10*60*60*1E-3" />
         <Unit name="kg*dm²/min²" factor="1" visible="0" />
-        <Unit name="J" factor="1E2/60/60"/>
-        <Unit name="kJ" factor="1E3*1E2/60/60"/>
+        <Unit name="J" factor="1E2*60*60"/>
+        <Unit name="kJ" factor="1E3*1E2*60*60"/>
       </Units>
     </Dimension>
     <Dimension name="Flow" baseUnit="l/min">
